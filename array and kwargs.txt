@@ -1,0 +1,14 @@
+from array import *
+ar = array('i', [2, 3, 4, 5])
+print(ar)
+new = array(ar.typecode, (a*a for a in ar))
+print(new)
+print(ar.reverse())
+
+
+def det(name, **city):
+    print(name)
+    for i,j in city.items():
+        print(i,j)
+
+det('sekhar', city='mumbai', n2='vskp')
